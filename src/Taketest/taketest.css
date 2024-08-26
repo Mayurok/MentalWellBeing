@@ -1,0 +1,54 @@
+/* Container for the quiz */
+.quiz-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Title styling */
+.quiz-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quiz-card {
+  border-radius: 8px;
+}
+
+.quiz-card-header {
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+
+.quiz-card-body {
+  padding: 20px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label {
+  margin-left: 10px;
+  flex-grow: 1;
+  color: #333;
+}
+
+.form-check-input:checked {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+/* Custom hover effect for radio buttons
+.form-check-input:hover {
+  background-color: #ffeeba;
+  border-color: #ffeeba;
+} */
+
+/* Submit button styling */
+.quiz-submit-button {
+  padding: 10px 30px;
+  font-size: 16px;
+}

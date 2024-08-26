@@ -1,0 +1,32 @@
+/* .button{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-flex;
+    color:rgb(234, 216, 51)
+} */
+
+/* Custom button styles */
+.button {
+    display: inline-flex;
+    background-color: #d44b11; /* Primary Bootstrap color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #26d331; /* Darker shade on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  .button:active {
+    background-color: #003f7f; /* Even darker shade when active */
+    color: #fff;
+  }
+  

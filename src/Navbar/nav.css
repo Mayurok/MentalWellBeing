@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #ffc107;
+}
+
+.navbar.navbar-brand{
+    color: #ffffff;
+}
+
+.navbar .nav-link{
+    color:rgba(2520, 255, 255, .55);
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline;
+
+}
+
+.avtar{
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline;
+    justify-content: space-between;
+}
+
+@media(max-width:576px){
+ .navbar .Nav-link{
+    margin-right: 0;
+ }
+}
